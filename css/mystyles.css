@@ -1,0 +1,95 @@
+
+@import url("globalpage.css");
+
+.mytable {
+	margin-top: 15px;
+}
+
+#tablanotas {
+  width: 100%;
+	color: white;
+  border: 4px solid #78aac3;
+  min-width: 
+}
+
+#tablanotas td {
+  min-width: 80px;
+}
+
+.divtablita {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.ficha {
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  border: 4px solid #888;
+  display: flex;
+}
+
+.ficha h3, .ficha p {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.ficha div.vercursada {
+  height: 100%;
+  line-height: 50%;
+}
+
+/* POPUPBOX CURSADA Y MATERIAS */
+.popupbox {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Popup Content/Box */
+#addRegistro {
+  background-color: #333;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.popupbox-content {
+  margin: 15% auto; 
+  width: 400px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+  float: right;
+  font-size: 40px;
+ 	font-weight: bold;
+  background: red;
+  padding-bottom: 10px;
+  -moz-border-radius: 100px; 
+  -webkit-border-radius: 100px; 
+  border-radius: 100px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inputnotas {
+  display: none;
+}
+
